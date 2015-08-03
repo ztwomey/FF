@@ -1,2 +1,16 @@
+body {
+    padding-top: 80px;
+}
+
+/*Home Page Styling*/
+
+.sidebar {
+   text-align: center;
+}
 
 
+/*Team Page Styling*/
+
+.teams img {
+    margin: 1em auto;
+}
