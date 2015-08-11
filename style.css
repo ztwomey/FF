@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 body {
     padding-top: 80px;
 }
@@ -13,4 +17,44 @@ body {
 
 .teams img {
     margin: 1em auto;
+}
+
+
+/*Standing Page Styling*/
+
+.table {
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+    height: 47em;    
+}
+
+.table th {
+    text-align: center;
+}
+
+.table tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+
+
+/*Champions Page Styling*/
+
+.winner {
+    text-align: center;
+}
+
+.champion h1, .champion h3 {
+    text-align: center;
+}
+
+
+
+/*Media Queries*/
+
+@media(max-width: 500px){
+    .table {
+        height: 30em
+    }
 }
