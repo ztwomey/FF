@@ -12,6 +12,10 @@ body {
    text-align: center;
 }
 
+.matchups {
+    margin-bottom: 2em;
+}
+
 
 /*Team Page Styling*/
 
@@ -41,14 +45,28 @@ body {
 
 /*Champions Page Styling*/
 
-.winner {
+.champion {
+    margin-top: 3em;
+}
+
+.champion h3 {
     text-align: center;
 }
 
-.champion h1, .champion h3 {
+.champion img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.stats {
+    margin-top: 7em;
     text-align: center;
 }
 
+.stats p {
+    font-weight: bold;
+}
 
 
 /*Media Queries*/
@@ -56,5 +74,9 @@ body {
 @media(max-width: 500px){
     .table {
         height: 30em
+    }
+    
+    .stats {
+        margin-top: 5.5em;
     }
 }
