@@ -6,6 +6,11 @@ body {
     padding-top: 80px;
 }
 
+.mynav {
+    background-color: #000;
+}
+
+
 /*Home Page Styling*/
 
 .sidebar {
@@ -79,4 +84,5 @@ body {
     .stats {
         margin-top: 5.5em;
     }
+    
 }
