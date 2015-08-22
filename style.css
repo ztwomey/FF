@@ -10,6 +10,9 @@ body {
     background-color: #000;
 }
 
+.container {
+    max-width: 95%;
+}
 
 /*Home Page Styling*/
 
