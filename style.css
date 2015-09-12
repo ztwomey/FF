@@ -27,9 +27,16 @@ body {
 
 /*Team Page Styling*/
 
-.teams img {
-    margin: 1em auto;
+.teams {
+    list-style: none;
+    text-align: center;
 }
+
+.teams img {
+    margin: 1.5em auto;
+    display: inline-block;
+}
+
 
 
 /*Standing Page Styling*/
@@ -74,6 +81,12 @@ body {
 
 .stats p {
     font-weight: bold;
+}
+
+/*Roster Pages*/
+
+.roster h1 {
+    text-align: center;
 }
 
 
