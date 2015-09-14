@@ -1,104 +1,39 @@
-body, html {
-    height: 100%;
-}
-
-body {
-    padding-top: 80px;
-}
-
-.mynav {
-    background-color: #000;
-}
-
-.container {
-    max-width: 95%;
-}
-
 /*Home Page Styling*/
 
-.sidebar {
-   text-align: center;
+.header img {
+    width: 100%;
 }
 
 .matchups {
-    margin-bottom: 2em;
+    text-align: center;
+}
+
+.matchups ul {
+    padding: 0;
+}
+
+.matchups li {
+    list-style: none;
 }
 
 
-/*Team Page Styling*/
+/*Teams Page Styling*/
 
 .teams {
+    padding-top: 2em;
+}
+
+.teams li {
     list-style: none;
-    text-align: center;
 }
 
-.teams img {
-    margin: 1.5em auto;
-    display: inline-block;
-}
-
-
-
-/*Standing Page Styling*/
-
-.table {
-    max-width: 75%;
+.teams li img {
     margin: auto;
-    text-align: center;
-    height: 47em;    
+    padding-bottom: 1em;
 }
 
-.table th {
-    text-align: center;
-}
+/*Standings Page Styling*/
 
 .table tbody tr td, .borderless tbody tr th, .borderless thead tr th {
     border: none;
-}
-
-
-
-/*Champions Page Styling*/
-
-.champion {
-    margin-top: 3em;
-}
-
-.champion h3 {
-    text-align: center;
-}
-
-.champion img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-}
-
-.stats {
-    margin-top: 7em;
-    text-align: center;
-}
-
-.stats p {
-    font-weight: bold;
-}
-
-/*Roster Pages*/
-
-.roster h1 {
-    text-align: center;
-}
-
-
-/*Media Queries*/
-
-@media(max-width: 500px){
-    .table {
-        height: 30em
-    }
-    
-    .stats {
-        margin-top: 5.5em;
-    }
-    
 }
