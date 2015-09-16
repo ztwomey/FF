@@ -88,11 +88,13 @@ body {
 
 .teams li {
     list-style: none;
+    text-align: center;
 }
 
 .teams li img {
-    margin: auto;
-    padding-bottom: 1em;
+    margin: .5em auto;
+    display: inline-block;
+    border: 1px solid #fff;
 }
 
 /*Standings Page Styling*/
@@ -100,3 +102,25 @@ body {
 .table tbody tr td, .borderless tbody tr th, .borderless thead tr th {
     border: none;
 }
+
+.standings {
+    padding-left: 7em;
+    padding-top: 1em;
+}
+
+
+/*Champions Page Styling */
+
+.champion {
+    text-align: center;
+}
+
+.champion img {
+    border: 1px solid #fff;
+    margin: 0 auto 1em;
+}
+
+
+
+
+
